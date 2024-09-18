@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Jornada do Caçador de Vampiros</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="file:///media/fuse/drivefs-86e9946fe79e8c84044f80d7ae0eef23/root/Design%20sem%20nome%20(8).png" alt="">
+            <p>Você é um caçador de vampiros e se encontra na entrada de uma floresta sombria. Você pode:</p>
+            <button class="btn-proximo" data-proximo="1">Entrar na floresta em busca do covil do vampiro.</button>
+            <button class="btn-proximo" data-proximo="2">Voltar para a aldeia e pedir ajuda.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide entrar na floresta. Após caminhar por um tempo, você encontra uma bifurcação no caminho. Você pode:</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o caminho à esquerda, que parece mais iluminado.</button>
+            <button class="btn-proximo" data-proximo="4">Seguir o caminho à direita, que é mais escuro e assustador.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide voltar para aldeia e pedir ajuda. Ao se lembrar sobre alguns rumorer sobre um grupo de pessoas que caçam vampiros, eles ficam em um beco escuro perto do cemiterio, o que você faz?</p>
+            <button class="btn-proximo" data-proximo="5">Ir atrás desse suposto grupo.</button>
+            <button class="btn-proximo" data-proximo="6">Procurar pessoas conhecidas dispostas a te ajudar.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você opta por seguir o caminho à esquerda. Depois de alguns minutos, você avista uma antiga mansão no meio da floresta. Curioso, você decide entrar na mansão.</p>
+            <button class="btn-proximo" data-proximo="12">Entrar na mansão</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="file:///media/fuse/drivefs-86e9946fe79e8c84044f80d7ae0eef23/root/Design%20sem%20nome%20(9).png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você se perde, pois o caminho da direita acaba ficando mais estreito e você continua pelo meio das arvores, mas ao ver que esse caminho não iria dar em lugar nenhum, você ja não se lembra por onde veio.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Ao ir atrás desse suposto grupo, você os encontra no fundo do tal beco, tramando algo, vai em direção a eles e decide se apresentar.</p>
+            <button class="btn-proximo" data-proximo="7">Se apresentar ao grupo suspeito.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você vai atras de seus amigos, mas ninguém acredita em você, isso te leva a desistir e voltar para casa.</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você se apresenta dizendo que é um caçador de vampiros, mas ao falar isso, escutar uma risada assustadora la do fundo e logo em seguida falando "Então, você é o famoso caçador de vampiros? Pensei que fosse maior, mas enfim, o que veio fazer aqui?" o que você faz?:</p>
+            <button class="btn-proximo" data-proximo="8">Se sente entimidado, diz que foi um engano e volta para casa.</button>
+            <button class="btn-proximo" data-proximo="9">Pede para que eles te ajudem a exterminar os vampiros de uma vez por todas.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você vai atras de ajuda de seus amigos.</p>
+            <button class="btn-proximo" data-proximo="6">Procurar seus amigos.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>"Por que nós fariamos isso, se somos vampiros também?" todos eles mostram seus dentes pontiagudos te encurralando no beco.</p>
+            <button class="btn-proximo" data-proximo="10">Lutar contra os vampiros.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você luta contra eles, com estacas de madeira, agua benta e alho, mas isso não faz nem cosquinha neles, até que um deles te morde no pescoço.</p>
+            <button class="btn-proximo" data-proximo="11">Se soltar da mordida e se olha em uma poça d'agua próxima.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="file:///media/fuse/drivefs-86e9946fe79e8c84044f80d7ae0eef23/root/Design%20sem%20nome%20(10).png" alt="">
+            <p>Você se olha na poça, começam a crescer presas, seu coração para de bater, sua pele fica fria e seus olhos ficam vermelhos. VOCÊ SE TORNOU UM VAMPIRO! Se esconda para que nenhum caçador ache você, boa sorte.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Ao entrar na mansão, apontando a lanterna para todos os lugares, até ver uma silhueta vindo em sua direção, não da tempo nem de correr, a sobram pula em você e tu sente uma dor insuportavel em seu pescoço.</p>
+            <button class="btn-proximo" data-proximo="11">Se olhar em uma poça próxima.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
